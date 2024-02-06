@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded",function(){
     const idbody= document.getElementById("body");
     
     function setBackgroundColor(element,color){
-    element.style.backgroundColor=`rgb(${hourrgb},${minrgb},${secrgb})`;
+    element.style.backgroundColor=`rgb(${secrgb},${minrgb},${hourrgb})`;
     }
 setBackgroundColor(idbody);
 });
